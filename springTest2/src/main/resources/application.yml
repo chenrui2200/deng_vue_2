@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: springTestHello
+      #profiles:
+    #active: prod
+      #active: dev
+  datasource:
+    #url: jdbc:mysql://${test.db.host}:3309/mysql?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://172.24.17.124:3308/mysql?useSSL=false&serverTimezone=UTC
+    #url: jdbc:mysql://mysql574:3308/mysql?useSSL=false&serverTimezone=UTC
+    username: root
+     #password: ${test.db.pw}
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+#Mybatis??
+mybatis:
+  config-location: classpath:/META-INF/mybatis/mybatis-config.xml
+
+server:
+  port: 8080

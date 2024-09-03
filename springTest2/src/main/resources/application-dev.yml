@@ -1,0 +1,4 @@
+test:
+  db:
+    host: mysql3310
+    pw: 123456

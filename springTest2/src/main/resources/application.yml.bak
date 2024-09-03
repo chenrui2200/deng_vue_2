@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: springTestHello
+  datasource:
+    url: jdbc:mysql://172.24.17.124:3308/mysql?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+#Mybatis??
+  #mybatis:
+  #config-location: classpath:/META-INF/mybatis/mybatis-config.xml
+
+server:
+  port: 8080

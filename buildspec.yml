@@ -13,7 +13,6 @@ phases:
       - yum install -y maven
       - echo "Installing Docker..."
       - yum install -y docker
-      - service docker start
       - docker info
 
   pre_build:

@@ -8,7 +8,7 @@ WORKDIR /app
 # 注意：这里假设你的jar包已经通过Maven或Gradle构建好了，并且位于构建目录（如target）中  
 # 你需要将这个jar包复制到Dockerfile所在的目录，或者修改COPY指令的路径  
 # 将本地 jar 包添加到容器中 /app  
-ARG JAR_FILE=deng_vue_2/target/*.jar
+ARG JAR_FILE=springTest2/target/*.jar
 COPY ${JAR_FILE} /app/app.jar  
   
 # 暴露容器的8080端口（或者你的Spring Boot应用实际监听的端口）  

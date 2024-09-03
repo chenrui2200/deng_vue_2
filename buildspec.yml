@@ -5,9 +5,7 @@ env:
     AWS_ACCOUNT_ID: "043942809940"
     AWS_REGION: "ap-northeast-2"
     IMAGE_REPO_NAME: "springboot/hello"
-
 phases:
-  install:
     commands:
       - echo "Installing Maven..."
       - yum install -y maven

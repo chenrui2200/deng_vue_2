@@ -19,7 +19,7 @@ phases:
   pre_build:
     commands:
       - echo "Building the Maven project..."
-      - docker run --rm -v $(pwd):/usr/src/mymaven -w /usr/src/mymaven maven:3.8.5-openjdk-17 mvn clean install
+      - docker run --rm -v $(pwd)/springTest2:/usr/src/mymaven -w /usr/src/mymaven maven:3.8.5-openjdk-17 mvn clean install
 
   build:
     commands:

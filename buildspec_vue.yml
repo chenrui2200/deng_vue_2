@@ -13,6 +13,7 @@ phases:
     commands:
       # 安装必要的依赖
       - echo "Installing dependencies..."
+      - cd vue_test_login
       - npm install
 
   pre_build:
@@ -25,6 +26,7 @@ phases:
     commands:
       # 构建 Docker 镜像
       - echo "Building the Docker image..."
+      - cd ../
       - docker build -t $IMAGE_REPO_NAME:latest -f VUEDockerfile .
 
       # 登录到 ECR

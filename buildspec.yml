@@ -3,8 +3,8 @@ version: 0.2
 env:
   variables:
     AWS_ACCOUNT_ID: "043942809940"
-    AWS_REGION: "ap-south-1"
-    IMAGE_REPO_NAME: "springboot/frontend"
+    AWS_REGION: "ap-northeast-2"
+    IMAGE_REPO_NAME: "springboot/hello"
 
 phases:
   install:

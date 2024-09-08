@@ -1,6 +1,6 @@
 [
   {
     "name": "deng_springboot",
-    "imageUri": "043942809940.dkr.ecr.ap-northeast-2.amazonaws.com/vue/hello:latest"
+    "imageUri": "043942809940.dkr.ecr.ap-northeast-2.amazonaws.com/springboot/hello:latest"
   }
 ]

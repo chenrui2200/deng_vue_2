@@ -30,7 +30,7 @@ public class UserController {
         if (user == null) {
             map.put("msg", "username or password is not correct.........");
         } else {
-            map.put("msg", "login successfully+1111");
+            map.put("msg", "login successfully+1111222S");
         }
 
         return map;

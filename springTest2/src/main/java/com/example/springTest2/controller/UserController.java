@@ -28,7 +28,7 @@ public class UserController {
         Map<String, Object> map = new HashMap<>();
         map.put("code", "0");
         if (user == null) {
-            map.put("msg", "username or password is not correct");
+            map.put("msg", "username or password is not correct.........");
         } else {
             map.put("msg", "login successfully");
         }

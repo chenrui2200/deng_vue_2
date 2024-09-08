@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>{{ msg }}</h1>
-    用户名test1：<input v-model="username">
+    用户名test3：<input v-model="username">
     <br/>
     密码：<input v-model="password">
     <br/>

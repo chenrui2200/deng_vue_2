@@ -14,9 +14,16 @@ import java.util.Map;
 public class UserController {
     @Autowired
     private UserService userService;
+
     @GetMapping("/user/{id}")
     public Users getUserById(@PathVariable("id") Integer id) {
         return userService.getUserById(id);
+    }
+
+
+    @GetMapping("/health")
+    public String health() {
+        return "health .....";
     }
 
 

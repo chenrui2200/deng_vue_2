@@ -2,11 +2,11 @@ spring:
   application:
     name: springTestHello
       #profiles:
-    #active: prod
+      #active: prod
       #active: dev
   datasource:
     #url: jdbc:mysql://${test.db.host}:3309/mysql?useSSL=false&serverTimezone=UTC
-    url: jdbc:mysql://172.24.17.124:3308/mysql?useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://database-1.crmi8wgo8li3.ap-northeast-2.rds.amazonaws.com:3306/springboot?useSSL=false&serverTimezone=UTC
     #url: jdbc:mysql://mysql574:3308/mysql?useSSL=false&serverTimezone=UTC
     username: root
      #password: ${test.db.pw}

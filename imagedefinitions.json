@@ -1,6 +1,6 @@
 [
   {
-    "name": "deng_vue",
-    "imageUri": "043942809940.dkr.ecr.ap-northeast-2.amazonaws.com/vue/hello:latest"
+    "name": "frontend",
+    "imageUri": "043942809940.dkr.ecr.ap-northeast-2.amazonaws.com/jenkins_deng/frontend:latest"
   }
 ]
